@@ -282,3 +282,17 @@ svg text { font-family: var(--font-num); }
   .hero.hero-top > img { aspect-ratio: 4 / 3; object-position: 52% 20%; }
   .hero.hero-top .body { padding: 16px 16px 20px; }
 }
+
+.os-bar { display: flex; height: 18px; border-radius: 5px; overflow: hidden; }
+.os-bar i { display: block; height: 100%; }
+.os-leg { display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: 6px; font-size: 12px; color: var(--silver); }
+.os-leg b { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 4px; vertical-align: middle; }
+.os-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.os-head h3 small { font-weight: 400; font-size: 12px; }
+.os-ops { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; margin-top: 10px; }
+.os-ops div { background: var(--panel2); border-radius: 8px; padding: 6px 8px; }
+.os-ops span { display: block; font-size: 11px; }
+.os-ops b { font-size: 18px; }
+.os-txt { font-size: 14px; margin: 12px 0 0; line-height: 1.8; }
+.os-next { font-size: 14px; margin: 8px 0 0; line-height: 1.8; padding: 8px 10px; border-left: 3px solid var(--gold); background: rgba(227,181,74,.07); }
+.os-sum ol { margin: 0; padding-left: 1.3em; } .os-sum li { margin-bottom: 6px; }

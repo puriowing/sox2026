@@ -15,7 +15,7 @@
 <link rel="icon" href="icons/icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=13">
+<link rel="stylesheet" href="style.css?v=14">
 </head>
 <body>
 <header class="site">
@@ -29,6 +29,7 @@
       <a href="#/roster" data-r="roster">選手の出入り</a>
       <a href="#/news" data-r="news">ニュース</a>
       <a href="#/quiz" data-r="quiz">クイズ</a>
+      <a href="#/offseason" data-r="offseason">来季補強</a>
       <a href="#/guide" data-r="guide">ファンガイド</a>
     </nav>
   </div>
@@ -46,6 +47,7 @@
   <div class="sheet-body">
     <a href="#/roster" data-r="roster">選手の出入り</a>
     <a href="#/news" data-r="news">ニュース</a>
+    <a href="#/offseason" data-r="offseason">2027年 補強分析</a>
     <a href="#/guide" data-r="guide">ファンガイド</a>
     <button type="button" id="installBtn" hidden>ホーム画面に追加</button>
     <p class="muted" id="iosHint" hidden>iPhoneの場合：Safariの共有ボタン →「ホーム画面に追加」でアプリとして使えます。</p>
@@ -65,17 +67,19 @@
 <script src="data/titles_ja_part2.js" onerror=""></script>
 <script src="data/titles_ja_part3.js" onerror=""></script>
 <script src="data/titles_ja_part4.js" onerror=""></script>
-<script src="data/moments_auto_part1.js?v=13" onerror=""></script>
-<script src="data/moments_auto_part2.js?v=13" onerror=""></script>
-<script src="data/moments_auto_part3.js?v=13" onerror=""></script>
-<script src="data/moments_auto_part4.js?v=13" onerror=""></script>
-<script src="data/moments_auto_part5.js?v=13" onerror=""></script>
-<script src="data/moments_auto_part6.js?v=13" onerror=""></script>
-<script src="ja.js?v=13"></script>
+<script src="data/moments_auto_part1.js?v=14" onerror=""></script>
+<script src="data/moments_auto_part2.js?v=14" onerror=""></script>
+<script src="data/moments_auto_part3.js?v=14" onerror=""></script>
+<script src="data/moments_auto_part4.js?v=14" onerror=""></script>
+<script src="data/moments_auto_part5.js?v=14" onerror=""></script>
+<script src="data/moments_auto_part6.js?v=14" onerror=""></script>
+<script src="ja.js?v=14"></script>
 <script src="data/news.js" onerror="window.NEWS=null"></script>
-<script src="story.js?v=13"></script>
-<script src="quiz.js?v=13"></script>
-<script src="app.js?v=13"></script>
+<script src="data/offseason.js?v=14" onerror=""></script>
+<script src="offseason.js?v=14"></script>
+<script src="story.js?v=14"></script>
+<script src="quiz.js?v=14"></script>
+<script src="app.js?v=14"></script>
 <script>
 (() => {
   const sheet = document.getElementById("moreSheet");
@@ -85,7 +89,7 @@
     const r = (location.hash.split("/")[1] || "");
     const k = r === "game" ? "games" : r === "player" ? "players" : r;
     document.querySelectorAll(".tabbar a").forEach(a => a.classList.toggle("on", a.dataset.r === k));
-    document.getElementById("moreBtn").classList.toggle("on", ["roster", "news", "guide"].includes(k));
+    document.getElementById("moreBtn").classList.toggle("on", ["roster", "news", "guide", "offseason"].includes(k));
   };
   addEventListener("hashchange", sync); sync();
   let deferred;

@@ -1,4 +1,4 @@
-const VERSION = "sox2026-v14";
+const VERSION = "sox2026-v15";
 const SHELL = [
 "./",
 "index.html",
@@ -7,6 +7,8 @@ const SHELL = [
 "ja.js",
 "quiz.js",
 "story.js",
+"offseason.js",
+"data/offseason.js",
 "manifest.webmanifest",
 "icons/icon-192.png",
 "icons/apple-touch-icon.png",

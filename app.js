@@ -526,7 +526,7 @@ function route() {
   document.querySelector(".pop")?.remove();
   const [, r = "", arg] = location.hash.split("/");
   document.querySelectorAll("nav.main a").forEach(a => a.classList.toggle("on", a.dataset.r === (r === "game" ? "games" : r === "player" ? "players" : r)));
-  ({ "": pageHome, games: () => pageGames(), game: () => pageGame(+arg), players: () => pagePlayers(), player: () => pagePlayer(+arg), roster: () => pageRoster(), quiz: () => pageQuiz(), story: () => pageStory(arg === undefined ? null : +arg), news: pageNews, guide: pageGuide }[r] || pageHome)();
+  ({ "": pageHome, games: () => pageGames(), game: () => pageGame(+arg), players: () => pagePlayers(), player: () => pagePlayer(+arg), roster: () => pageRoster(), quiz: () => pageQuiz(), offseason: () => pageOffseason(), story: () => pageStory(arg === undefined ? null : +arg), news: pageNews, guide: pageGuide }[r] || pageHome)();
   scrollTo(0, 0);
 }
 addEventListener("hashchange", route);
