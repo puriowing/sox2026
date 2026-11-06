@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>White Sox 2026</title>
+<meta name="theme-color" content="#0b0b0c">
+<meta name="robots" content="noindex, nofollow">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Sox 2026">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=11">
+</head>
+<body>
+<header class="site">
+  <div class="inner">
+    <a class="logo" href="#/"><img src="https://www.mlbstatic.com/team-logos/145.svg" alt="">2026 WHITE SOX <small>シーズン全記録</small></a>
+    <nav class="main">
+      <a href="#/" data-r="">トップ</a>
+      <a href="#/story" data-r="story">物語</a>
+      <a href="#/games" data-r="games">試合一覧</a>
+      <a href="#/players" data-r="players">選手成績</a>
+      <a href="#/roster" data-r="roster">選手の出入り</a>
+      <a href="#/news" data-r="news">ニュース</a>
+      <a href="#/quiz" data-r="quiz">クイズ</a>
+      <a href="#/guide" data-r="guide">ファンガイド</a>
+    </nav>
+  </div>
+</header>
+<main id="app"></main>
+<nav class="tabbar">
+  <a href="#/" data-r=""><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg><span>トップ</span></a>
+  <a href="#/story" data-r="story"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5"/></svg><span>物語</span></a>
+  <a href="#/games" data-r="games"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span>試合</span></a>
+  <a href="#/players" data-r="players"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg><span>選手</span></a>
+  <a href="#/quiz" data-r="quiz"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .9-1 1.7M12 17h.01"/></svg><span>クイズ</span></a>
+  <button type="button" id="moreBtn"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="12" r="1.3"/><circle cx="12" cy="12" r="1.3"/><circle cx="19" cy="12" r="1.3"/></svg><span>その他</span></button>
+</nav>
+<div class="sheet" id="moreSheet" hidden>
+  <div class="sheet-body">
+    <a href="#/roster" data-r="roster">選手の出入り</a>
+    <a href="#/news" data-r="news">ニュース</a>
+    <a href="#/guide" data-r="guide">ファンガイド</a>
+    <button type="button" id="installBtn" hidden>ホーム画面に追加</button>
+    <p class="muted" id="iosHint" hidden>iPhoneの場合：Safariの共有ボタン →「ホーム画面に追加」でアプリとして使えます。</p>
+  </div>
+</div>
+
+<script src="data/season.js"></script>
+<script src="data/players.js"></script>
+<script src="data/names_ja.js"></script>
+<script src="data/moments_ja.js"></script>
+<script src="data/names_ja_more.js"></script>
+<script src="data/names_ja_part1.js"></script>
+<script src="data/names_ja_part2.js"></script>
+<script src="data/names_ja_part3.js"></script>
+<script src="data/titles_ja.js"></script>
+<script src="data/titles_ja_part1.js" onerror=""></script>
+<script src="data/titles_ja_part2.js" onerror=""></script>
+<script src="data/titles_ja_part3.js" onerror=""></script>
+<script src="data/titles_ja_part4.js" onerror=""></script>
+<script src="data/moments_auto_part1.js?v=10" onerror=""></script>
+<script src="data/moments_auto_part2.js?v=10" onerror=""></script>
+<script src="data/moments_auto_part3.js?v=10" onerror=""></script>
+<script src="data/moments_auto_part4.js?v=10" onerror=""></script>
+<script src="data/moments_auto_part5.js?v=10" onerror=""></script>
+<script src="data/moments_auto_part6.js?v=10" onerror=""></script>
+<script src="ja.js?v=10"></script>
+<script src="data/news.js" onerror="window.NEWS=null"></script>
+<script src="story.js?v=10"></script>
+<script src="quiz.js?v=10"></script>
+<script src="app.js?v=10"></script>
+<script>
+(() => {
+  const sheet = document.getElementById("moreSheet");
+  document.getElementById("moreBtn").onclick = () => { sheet.hidden = !sheet.hidden; };
+  sheet.onclick = e => { if (e.target === sheet || e.target.tagName === "A") sheet.hidden = true; };
+  const sync = () => {
+    const r = (location.hash.split("/")[1] || "");
+    const k = r === "game" ? "games" : r === "player" ? "players" : r;
+    document.querySelectorAll(".tabbar a").forEach(a => a.classList.toggle("on", a.dataset.r === k));
+    document.getElementById("moreBtn").classList.toggle("on", ["roster", "news", "guide"].includes(k));
+  };
+  addEventListener("hashchange", sync); sync();
+  let deferred;
+  addEventListener("beforeinstallprompt", e => { e.preventDefault(); deferred = e; document.getElementById("installBtn").hidden = false; });
+  document.getElementById("installBtn").onclick = async () => { if (deferred) { deferred.prompt(); deferred = null; } };
+  const standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+  if (/iPhone|iPad/.test(navigator.userAgent) && !standalone) document.getElementById("iosHint").hidden = false;
+  if ("serviceWorker" in navigator && location.protocol !== "file:") navigator.serviceWorker.register("sw.js").catch(() => {});
+})();
+</script>
+</body>
+</html>

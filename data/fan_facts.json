@@ -1,0 +1,45 @@
+{
+  "manager": "ウィル・ベナブル（2025年から指揮、2026年が2年目。ア・リーグ最優秀監督の最終候補）",
+  "gm": "クリス・ゲッツ",
+  "ballpark": "レート・フィールド（シカゴ南部の本拠地。旧名ギャランティード・レート・フィールドで、2025年から現名称。命名権契約は2029年シーズン後まで。球団はサウスループの再開発地区「The 78」への新球場移転も模索）",
+  "lastPostseasonBefore2026": "2021年（地区シリーズでアストロズに1勝3敗）",
+  "lastSeriesWinBefore2026": "2005年ワールドシリーズ（アストロズを破って世界一）",
+  "murakamiContract": "2年総額3400万ドル（契約金100万ドル、2026年1600万ドル、2027年1700万ドル、オプトアウトなし）。別途ヤクルトへの譲渡金657万5000ドル。2027年シーズン後にFA。延長交渉が進行中",
+  "allStars": ["ミゲル・バルガス（選手投票で選出）", "村上宗隆（バクストンの代替、HRダービー出場）", "トリスタン・ピーターズ（カーツの代替）"],
+  "awards": [
+    "村上宗隆：ア・リーグ5月の月間最優秀新人",
+    "村上宗隆：Players Choice Awards ア・リーグ最優秀新人の最終候補",
+    "ウィル・ベナブル：ア・リーグ最優秀監督の最終候補（発表待ち）",
+    "チェイス・メイドロス：ゴールドグラブ賞（二塁手）最終候補（受賞はコール・ヤング）"
+  ],
+  "other": [
+    "2024年にMLB近代最多の121敗を喫したチームが、2年後に84勝78敗まで立て直した。",
+    "3年連続100敗からポストシーズンに進出したのはMLB史上初めて。",
+    "ア・リーグ最多の776得点、211本塁打（リーグ2位）と打線が武器だった一方、三振もリーグ2位の1494個。",
+    "村上・コルソン・モンゴメリー・バルガスの30本塁打トリオは球団では2008年以来。",
+    "シーズン中のサヨナラ勝ちは11回、逆転勝ちは35回、オープナー起用は31回。",
+    "2026年の年俸総額は約1億1770万ドルでMLB30球団中24位と、少ない予算での躍進だった。",
+    "地区シリーズは2連勝から3連敗。第5戦の21三振はポストシーズンの9回試合で最多記録。",
+    "2026年ドラフトで球団として1977年以来の全体1位指名権を得て、遊撃手ロック・チョロウスキーを指名。",
+    "村上の35本塁打は、日本出身選手では大谷翔平に次ぐ2人目のシーズン35本以上。"
+  ],
+  "sources": [
+    "https://www.nbcsports.com/mlb/news/white-sox-add-munetaka-murakami-with-34-million-2-year-contract",
+    "https://chicago.suntimes.com/white-sox/2026/11/02/white-sox-skipper-will-venable-named-a-finalist-for-al-manager-of-the-year",
+    "https://www.fox32chicago.com/sports/white-sox-gm-chris-getz-wraps-magic-season-goals-go-further-2027.amp",
+    "https://www.cbssports.com/mlb/news/nothing-is-guaranteed-white-sox-rename-stadium-rate-field-ahead-of-2025-mlb-season",
+    "https://www.espn.com/mlb/recap/_/gameId/401907897",
+    "https://chicago.suntimes.com/white-sox/2026/09/24/white-sox-clinch-first-playoff-berth-since-2021-with-9-1-blowout-win-over-royals",
+    "https://www.thescore.com/mlb/news/3624314",
+    "https://www.mlb.com/news/miguel-vargas-named-2026-american-league-all-star",
+    "https://chicago.suntimes.com/white-sox/2026/07/10/white-sox-munetaka-murakami-named-american-league-all-star-reserve-will-compete-in-home-run-derby",
+    "https://www.ksl.com/article/51596694/white-sox-outfielder-tristan-peters-named-as-an-all-star-replacement",
+    "https://www.mlb.com/press-release/press-release-munetaka-murakami-of-the-chicago-white-sox-named-the-american-league-rookie-of-the-month-for-may-tj-rumfield-of-the-colorado-rockies-named-the-national-league-rookie-of-the-month-for-may",
+    "https://fantasynerds.com/news/story/2026/10/15/munetaka-murakami-a-finalist-for-al-rookie-of-the-year-award-1651826",
+    "https://roundtable.io/sports/mlb/white-sox/news/white-sox-second-baseman-chase-meidroth-snubbed-for-gold-glove-award",
+    "https://chicago.suntimes.com/white-sox/2026/10/10/white-sox-season-ends-with-2-0-shutout-loss-to-guardians-in-decisive-alds-game-5",
+    "https://chicago.suntimes.com/white-sox/2026/07/11/sox-get-their-man-picking-roch-cholowsky-with-top-overall-pick-in-mlb-draft",
+    "https://chicago.suntimes.com/white-sox/2026/09/25/munetaka-murakami-chicago-white-sox-home-runs-japanese-baseball-tomoyuki-sugano-will-venable-sean-burke-shohei-ohtani-jose-abreu",
+    "https://spread-sports.jp/archives/396099"
+  ]
+}
