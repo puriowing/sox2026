@@ -1,4 +1,4 @@
-const VERSION = "sox2026-v12";
+const VERSION = "sox2026-v14";
 const SHELL = [
 "./",
 "index.html",

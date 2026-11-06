@@ -154,14 +154,14 @@ function pageHome() {
   const finalSnap = { team: S.finalTeam };
   const rs = reg.reduce((a, g) => a + g.rs, 0), ra = reg.reduce((a, g) => a + g.ra, 0);
   let best = 0, c = 0; reg.forEach(g => { c = g.win ? c + 1 : 0; best = Math.max(best, c); });
-  const heroImg = firstImg(849846) || firstImg(last.pk);
+  const heroImg = "https://img.mlbstatic.com/mlb-images/image/upload/w_1920,h_810,f_jpg,c_fill,g_auto/v1790389163/mlb/w8tp52rc6tvzqpxs4vm7.jpg";
   const months = {};
   reg.forEach(g => { const m = d8(g.date).getMonth() + 1; months[m] = months[m] || { w: 0, l: 0 }; g.win ? months[m].w++ : months[m].l++; });
   const series = {};
   post.forEach(g => (series[g.series] = series[g.series] || []).push(g));
 
   $app.innerHTML = `
-  <section class="hero"><img src="${heroImg}" alt=""><div class="body">
+  <section class="hero hero-top"><img src="${heroImg}" alt="ダッグアウトでチームメイトとハイタッチする村上宗隆"><div class="body">
     <span class="chip gold">3年連続100敗からのポストシーズン進出はMLB史上初</span> <span class="chip gold">2005年以来のシリーズ突破</span>
     <div class="big" style="margin-top:10px">${last.w}勝${last.l}敗</div>
     <h1 style="margin-top:6px">ア・リーグ中地区2位・ワイルドカードで5年ぶりのポストシーズンへ</h1>

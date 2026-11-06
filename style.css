@@ -274,3 +274,11 @@ svg text { font-family: var(--font-num); }
   .pop { width: calc(100vw - 32px); }
 }
 .st-toc-item .chip, .st .chip { white-space: normal; }
+.hero.hero-top { display: block; min-height: 0; background: var(--panel); }
+.hero.hero-top::after { display: none; }
+.hero.hero-top > img { position: static; display: block; width: 100%; height: auto; aspect-ratio: 1920 / 810; object-fit: cover; object-position: 55% 25%; }
+.hero.hero-top .body { padding: 22px 26px 26px; }
+@media (max-width: 760px) {
+  .hero.hero-top > img { aspect-ratio: 4 / 3; object-position: 52% 20%; }
+  .hero.hero-top .body { padding: 16px 16px 20px; }
+}
